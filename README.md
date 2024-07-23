@@ -1,44 +1,94 @@
-Crie uma página contendo as respostas para as perguntas mais frequentes do seu site. Neste mini projeto, utilize sua criatividade para implementar um design moderno e responsivo para uma página de FAQ com HTML, CSS e JavaScript.
+<h1 align="center">
+    FAQ
+</h1>
 
-## 🔨 Requisitos
+<p align="center">
+  <a href="#sobre">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#setup">Setup</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#licença">Licença</a>
+</p>
 
-- Construa a aplicação com HTML, CSS e JavaScript.
-- As respostas para as perguntas devem ser colapsáveis
-	 - Ao clicar em uma pergunta, a resposta deverá aparecer logo abaixo.
-	 - Ao clicar novamente na mesma pergunta, a resposta deverá desaparecer.
-- Não utilize frameworks de estilo. O objetivo é você praticar os fundamentos básicos de CSS.
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=15C3D6&labelColor=000000" alt="PRs welcome!" />
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000">
+</p>
 
-### Deploy
+<div align="center">
+  <img src="https://sloc.xyz/github/brunolagoa/next-faq" alt="Total lines">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=aritra-tech/brunolagoa.next-faq" alt="Number of Visitors">
+  <a href="https://github.com/brunolagoa/next-faq/stargazers"><img src="https://img.shields.io/github/stars/brunolagoa/next-faq" alt="Stars Badge" /></a>
+  <a href="https://github.com/brunolagoa/next-faq/network/members"><img src="https://img.shields.io/github/forks/brunolagoa/next-faq" alt="Forks Badge" /></a>
+  <a href="https://github.com/brunolagoa/next-faq/pulls"><img src="https://img.shields.io/github/issues-pr/brunolagoa/next-faq" alt="Pull Requests Badge" /></a>
+  <a href="https://github.com/brunolagoa/next-faq/issues"><img src="https://img.shields.io/github/issues/brunolagoa/next-faq" alt="Issues Badge" /></a>
+  <a href="https://github.com/brunolagoa/next-faq/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/brunolagoa/next-faq?color=2b9348"></a>
+</div>
 
-- Faça o deploy e submeta sua implementação no Codante.
+<br>
 
-## 🔍 Dicas
+## Projeto
 
-- Explore a _tag_ `template` do HTML.
-- Você pode utilizar ferramentas como o **_Vite_** para iniciar a implementação do seu projeto.
+Página FAQ, construido com NextJS
 
-## 🎨 Design Sugerido
+## Tecnologias
 
-Temos uma sugestão de design no Figma, mas sinta-se livre para utilizar a criatividade e implementar uma página com o seu estilo próprio.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-### Figma
+- [NextJS](https://nextjs.org)
 
-🔗 [Acesse o link do Figma](https://www.figma.com/community/file/1278004378073537594)
+## Setup
 
-## 👉🏽 Sobre esse mini-projeto
+Clone o repositório em sua máquina:
 
-### Tecnologias sugeridas
+`git clone https://github.com/BrunoLagoa/next-faq.git`
 
-- HTML
-- CSS
-- JavaScript
+## Getting Started
 
-## ❓ FAQ
+Primeiro, execute o servidor de desenvolvimento:
 
-### Posso utilizar bibliotecas como o React?
+```bash
+npm run dev
+# ou
+yarn dev
+# ou
+pnpm dev
+# ou
+bun dev
+```
 
-Você pode utilizar as ferramentas que desejar para implementar esse projeto. Porém, o objetivo principal aqui é exercitar os fundamentos de HTML, CSS e JavaScript e a resolução oficial será implementa dessa maneira.
+Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o resultado.
 
-### Posso utilizar frameworks de estilo?
+## Layout
 
-Sim! Apesar do objetivo principal desse projeto ser exercitar suas habilidades com CSS puro, você está livre para utilizar as ferramentas que desejar.
+<div align="center">
+    <img alt="Desktop" title="#Desktop" src="./public/mock.png" width="680px" />
+</div>
+<br/><br/>
+
+<p>Site publicado em:</p>
+<a alt="Bruno Castro" target="_blank" rel="noopener noreferrer" href="next-faq.vercel.app">Clique aqui para visualizar</a>
+
+---
+
+
+## Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
+
+<h3 align="center">
+Autor: <a alt="Bruno Castro" target="_blank" rel="noopener noreferrer" href="https://brunocastro.dev">Bruno Castro</a>
+</h3>
+
+<p align="center">
+
+  <a alt="Bruno Castro Linkedin" rel="noopener noreferrer" href="https://www.linkedin.com/in/brunovcastro">
+    <img src="https://img.shields.io/badge/LinkedIn-Bruno%20Castro-blue?logo=linkedin"/></a>
+  <a alt="Bruno Castro GitHub" rel="noopener noreferrer" href="https://github.com/brunolagoa">
+  <img src="https://img.shields.io/badge/GitHub-Bruno%20Castro-lightgrey?logo=github"/></a>
+  <a alt="Bruno Castro Site" rel="noopener noreferrer" href="https://brunocastro.dev">
+  <img src="https://img.shields.io/badge/WebSite-Bruno%20Castro-lightgrey?logo=appveyor"/></a>
+
+</p>
